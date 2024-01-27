@@ -1,0 +1,23 @@
+{
+    "name": "thietdv/magento-hello",
+    "description": "Hello world extension for Magento",
+    "type": "magento2-module",
+    "version": "0.1.0",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Thiet Doan",
+            "email": "thietdv@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Thietdv\\Hello\\": "src"
+        },
+        "files": [
+            "src/registration.php"
+        ]
+    }
+}

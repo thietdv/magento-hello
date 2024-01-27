@@ -14,10 +14,10 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Thietdv\\Hello\\": "src"
+            "Thietdv\\Hello\\": ""
         },
         "files": [
-            "src/registration.php"
+            "registration.php"
         ]
     }
 }
